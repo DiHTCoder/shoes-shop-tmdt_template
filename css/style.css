@@ -929,8 +929,12 @@ ol {
 .product {
 	padding-top: 0;
 	padding-bottom: 60px;
+	display: inline-block;
+	width: 100%;
 }
-
+.product-buttons{
+	display: none;
+}
 .filter__controls {
 	text-align: center;
 	margin-bottom: 45px;
@@ -958,7 +962,18 @@ ol {
 	overflow: hidden;
 	margin-bottom: 40px;
 }
+.product__name{
+	font-size: 20px;
+}
+.product__name a{
+	color:#000;
+	text-decoration: none;
+}
 
+.product:hover .product-buttons{
+	display: block;
+	position: absolute;
+}
 .product__item.sale .product__item__pic .label {
 	color: #ffffff;
 	background: #111111;
@@ -1086,7 +1101,9 @@ ol {
 	-o-transition: all, 0.3s;
 	transition: all, 0.3s;
 }
-
+.product__item__button{
+	display: flex;
+}
 .product__item__text h6 {
 	color: #111111;
 	font-size: 15px;
@@ -3867,4 +3884,29 @@ ol {
 	.categories__text:before {
 		height: 250px;
 	}
+}
+
+
+.product-ribbon.product-ribbon--style-1 {
+    width: 48px;
+    height: 48px;
+    border-radius: 100%;
+    text-align: center;
+    line-height: 48px;
+    font-size: 11px;
+    z-index: 10;
+}
+.product-ribbon.product-ribbon-right {
+    right: 15px;
+}
+.product-ribbon {
+    position: absolute;
+    top: 15px;
+}
+.bg-blue {
+    background-color: #007aff !important;
+    color: #FFF;
+}
+.text-uppercase {
+    text-transform: uppercase !important;
 }
