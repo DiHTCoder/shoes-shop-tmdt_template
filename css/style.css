@@ -479,7 +479,7 @@ ol {
 }
 
 .header__menu ul li a {
-	font-size: 18px;
+	font-size: 20px;
 	color: #111111;
 	display: block;
 	font-weight: 600;
@@ -506,8 +506,25 @@ ol {
 .header__nav__option {
 	text-align: right;
 	padding: 30px 0;
+	display: flex;
 }
-
+.header__nav-username{
+	position: relative;
+    display: flex;
+    align-items: center;
+    border-radius: 50%;
+	padding-right: 8px;
+}
+.header__nav-avatar{
+	margin-right: 23px;
+    padding-right: 4px;
+    /* background: red; */
+    width: 45px;
+    text-align: center;
+}
+.header__nav-avatar img{
+	border-radius: 50%;
+}
 .header__nav__option a {
 	display: inline-block;
 	margin-right: 26px;
@@ -700,10 +717,12 @@ ol {
 
 .banner__item__pic {
 	float: right;
+	width: 400px;
+	height: 400px;
 }
 
 .banner__item__text {
-	max-width: 300px;
+	/* max-width: 300px; */
 	position: absolute;
 	left: 0;
 	top: 140px;
