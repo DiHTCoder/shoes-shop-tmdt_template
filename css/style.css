@@ -2556,6 +2556,54 @@ ol {
 /*---------------------
   Checkout
 -----------------------*/
+.payment{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+	bottom: 0;
+    display: none;
+    align-items: center;
+    justify-content: center;
+	background-color: rgba(0,0,0,0.4);   
+}
+.payment.open{
+    display: flex;
+}
+.payment-container{
+    position: relative;
+    animation: FadeIn 0.6s;
+}
+.payment img{
+    max-width: calc(100%-40px);
+    width: 400px;
+}
+img.ti-close{
+    width: 15px;
+}
+
+.payment-close{
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 10px;
+}
+.payment-close:hover{
+    background-color: red;
+    color: #fff;
+    cursor: pointer;
+}
+
+@keyframes FadeIn{
+    from{
+        opacity: 0;
+        transform: translateX(-10px);
+    }
+    to{
+        opacity: 1;
+        transform: translateX(10px);
+    }
+}
 
 .coupon__code {
 	color: #0d0d0d;
@@ -3303,13 +3351,15 @@ ol {
 }
 
 .contact__text .section-title h2 {
-	font-size: 48px;
+	font-size: 36px;
 	margin-bottom: 18px;
 }
 
 .contact__text .section-title p {
 	color: #707070;
 	line-height: 26px;
+	font-size: 14px;
+	width: 80%;
 	margin-bottom: 0;
 }
 
@@ -3363,6 +3413,7 @@ ol {
 	color: #b7b7b7;
 }
 
+
 .contact__form textarea {
 	height: 150px;
 	width: 100%;
@@ -3399,12 +3450,20 @@ ol {
 	letter-spacing: 4px;
 	padding: 14px 35px;
 }
-
+.contact__text img{
+	display: none;
+}
 /*--------------------------------- Responsive Media Quaries -----------------------------*/
 
 @media only screen and (min-width: 1200px) {
 	.container {
 		max-width: 1170px;
+	}
+	.contact__text img{
+		display:inline;
+	}
+	.contact__form .row.info{
+		margin-top: 15%;
 	}
 }
 
@@ -3425,6 +3484,9 @@ ol {
 	}
 	.testimonial__text {
 		padding: 130px 45px 175px;
+	}
+	.payment-container{
+		width: 250px;
 	}
 }
 
@@ -3499,6 +3561,7 @@ ol {
 /* Wide Mobile = 480px */
 
 @media only screen and (max-width: 767px) {
+	
 	.canvas__open {
 		display: block;
 		font-size: 22px;
