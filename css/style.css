@@ -404,7 +404,7 @@ ol {
 }
 
 .header__logo {
-	padding: 30px 0;
+	padding: 15px 0;
 }
 
 .header__logo a {
@@ -507,6 +507,7 @@ ol {
 	text-align: right;
 	padding: 30px 0;
 	display: flex;
+	align-items: center;
 }
 .header__nav-username{
 	position: relative;
@@ -1478,6 +1479,7 @@ ol {
 	height: auto;
 	border: none;
 	padding-right: 28px;
+	z-index: 11;
 }
 
 .shop__product__option__right .nice-select:after {
