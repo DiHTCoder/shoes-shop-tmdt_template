@@ -3241,94 +3241,6 @@ img.ti-close{
 	font-weight: 700;
 }
 
-.blog__details__comment h4 {
-	color: #333333;
-	font-weight: 700;
-	margin-bottom: 35px;
-	text-align: center;
-}
-
-.blog__details__comment form input {
-	height: 50px;
-	width: 100%;
-	border: 1px solid #e1e1e1;
-	padding-left: 20px;
-	font-size: 15px;
-	color: #b7b7b7;
-	margin-bottom: 30px;
-	-webkit-transition: all, 0.3s;
-	-o-transition: all, 0.3s;
-	transition: all, 0.3s;
-}
-
-.blog__details__comment form input::-webkit-input-placeholder {
-	color: #b7b7b7;
-}
-
-.blog__details__comment form input::-moz-placeholder {
-	color: #b7b7b7;
-}
-
-.blog__details__comment form input:-ms-input-placeholder {
-	color: #b7b7b7;
-}
-
-.blog__details__comment form input::-ms-input-placeholder {
-	color: #b7b7b7;
-}
-
-.blog__details__comment form input::placeholder {
-	color: #b7b7b7;
-}
-
-.blog__details__comment form input:focus {
-	border-color: #000000;
-}
-
-.blog__details__comment form textarea {
-	height: 120px;
-	width: 100%;
-	border: 1px solid #e1e1e1;
-	padding-left: 20px;
-	padding-top: 12px;
-	font-size: 15px;
-	color: #b7b7b7;
-	margin-bottom: 24px;
-	resize: none;
-	-webkit-transition: all, 0.3s;
-	-o-transition: all, 0.3s;
-	transition: all, 0.3s;
-}
-
-.blog__details__comment form textarea::-webkit-input-placeholder {
-	color: #b7b7b7;
-}
-
-.blog__details__comment form textarea::-moz-placeholder {
-	color: #b7b7b7;
-}
-
-.blog__details__comment form textarea:-ms-input-placeholder {
-	color: #b7b7b7;
-}
-
-.blog__details__comment form textarea::-ms-input-placeholder {
-	color: #b7b7b7;
-}
-
-.blog__details__comment form textarea::placeholder {
-	color: #b7b7b7;
-}
-
-.blog__details__comment form textarea:focus {
-	border-color: #000000;
-}
-
-.blog__details__comment form button {
-	letter-spacing: 4px;
-	padding: 14px 35px;
-}
-
 /*---------------------
   Map
 -----------------------*/
@@ -3412,7 +3324,10 @@ img.ti-close{
 .contact__form input::placeholder {
 	color: #b7b7b7;
 }
-
+.contact__form:focus{
+	color: #007aff;
+	border: 6px;
+}
 
 .contact__form textarea {
 	height: 150px;

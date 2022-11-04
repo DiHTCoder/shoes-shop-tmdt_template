@@ -25,17 +25,13 @@
 </head>
 
 <body>
-    <!-- Page Preloder -->
-    <div id="preloder">
-        <div class="loader"></div>
-    </div>
-
     <!-- Menu Mobile Begin -->
     <div class="offcanvas-menu-overlay"></div>
     <div class="offcanvas-menu-wrapper">
         <div class="offcanvas__option">
             <div class="offcanvas__links">
                 <a href="#">Đăng nhập</a>
+                <a href="#">Đăng xuất</a>
             </div>
         </div>
         <div class="offcanvas__nav__option">
@@ -46,9 +42,9 @@
         </div>
         <div id="mobile-menu-wrap"></div>
         <div class="offcanvas__text">
-            <p>Free shipping, 30-day return or refund guarantee.</p>
+            <p>Miễn phí vận chuyển, đổi trả trong vòng 1 tuần</p>
         </div>
-    </div>
+    </div> 
     <!-- Offcanvas Menu End -->
 
     <!-- Header Section Begin -->
@@ -76,7 +72,7 @@
             <div class="row">
                 <div class="col-lg-3 col-md-3">
                     <div class="header__logo">
-                        <a href="./index.html"><img src="img/logo.png" alt=""></a>
+                        <a href="./index.html"><img src="img/shop/logomain.png" alt=""></a>
                     </div>
                 </div>
                 <div class="col-lg-6 col-md-6">
@@ -141,9 +137,7 @@
                 <form action="#">
                     <div class="row">
                         <div class="col-lg-8 col-md-6">
-                            <h6 class="coupon__code"><span class="icon_tag_alt"></span> Have a coupon? <a href="#">Click
-                                    here</a> to enter your code</h6>
-                            <h6 class="checkout__title">Billing Details</h6>
+                            <h6 class="checkout__title">Chi tiết hóa đơn</h6>
                             <div class="row">
                                 <div class="col-lg-6">
                                     <div class="checkout__input">
@@ -163,14 +157,7 @@
                                 <p>Địa chỉ<span>*</span></p>
                                 <input type="text" class="checkout__input__add">
                             </div>
-                            <div class="checkout__input">
-                                <p>Tỉnh/Thành Phố<span>*</span></p>
-                                <input type="text">
-                            </div>
-                            <div class="checkout__input">
-                                <p>Huyện<span>*</span></p>
-                                <input type="text">
-                            </div>
+                        
 
                             <div class="row">
                                 <div class="col-lg-6">
@@ -195,8 +182,8 @@
 
                         <div class="col-lg-4 col-md-6">
                             <div class="checkout__order">
-                                <h4 class="order__title">Your order</h4>
-                                <div class="checkout__order__products">Product <span>Total</span></div>
+                                <h4 class="order__title">Đơn hàng của bạn</h4>
+                                <div class="checkout__order__products">Sản phẩm <span>Tổng</span></div>
                                 <ul class="checkout__total__products">
                                     <li>01. Vanilla salted caramel <span>$ 300.0</span></li>
                                     <li>02. German chocolate <span>$ 170.0</span></li>
@@ -204,8 +191,7 @@
                                     <li>04. Cluten free mini dozen <span>$ 110.0</span></li>
                                 </ul>
                                 <ul class="checkout__total__all">
-                                    <li>Subtotal <span>$750.99</span></li>
-                                    <li>Total <span>$750.99</span></li>
+                                    <li>Tổng<span>$750.99</span></li>
                                 </ul>
 
                                 <button type="submit" class="site-btn btn-pay">THANH TOÁN</button>
@@ -233,8 +219,8 @@
     </section>
     <!-- Checkout Section End -->
 
-    <!-- Footer Section Begin -->
-    <footer class="footer">
+     <!-- Footer Section Begin -->
+     <footer class="footer">
         <div class="container">
             <div class="row">
                 <div class="col-lg-3 col-md-6 col-sm-6">
@@ -298,11 +284,7 @@
     </div>
     <!-- Search End -->
 
-
-
-
     <!-- Js Plugins -->
-    <script src="js/jquery-3.3.1.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/jquery.nice-select.min.js"></script>
     <script src="js/jquery.nicescroll.min.js"></script>
@@ -330,6 +312,7 @@
         iconClose.addEventListener('click', hidePay)
 
     </script>
+    
 </body>
 
 </html>
