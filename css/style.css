@@ -3563,7 +3563,8 @@ img.ti-close{
 		color: #111111;
 	}
 	.slicknav_nav {
-		display: block !important;
+		display: flex !important;
+		align-items: center;
 	}
 	.offcanvas__option {
 		text-align: center;

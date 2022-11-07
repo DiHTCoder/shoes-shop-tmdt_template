@@ -3,8 +3,6 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="description" content="Male_Fashion Template">
-    <meta name="keywords" content="Male_Fashion, unica, creative, html">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Somore Store</title>
@@ -14,7 +12,6 @@
     rel="stylesheet">
 
     <!-- Css Styles -->
-    <link rel="shortcut icon" type="image" href="img/shop/logomain.png"/>
     <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
     <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css">
     <link rel="stylesheet" href="css/elegant-icons.css" type="text/css">
@@ -30,16 +27,14 @@
     <div class="offcanvas-menu-overlay"></div>
     <div class="offcanvas-menu-wrapper">
         <div class="offcanvas__option">
+            <div class="logo-mobile">
+                <img src="img/shop/logomain.png" alt="">
+            </div>
             <div class="offcanvas__links">
-                <a href="#">Đăng nhập</a>
-                <a href="#">Đăng xuất</a>
+                <a href="authentication.html">Đăng nhập/Đăng ký</a>
             </div>
         </div>
         <div class="offcanvas__nav__option">
-            <a href="#" class="search-switch"><img src="img/icon/search.png" alt=""></a>
-            <a href="#"><img src="img/icon/heart.png" alt=""></a>
-            <a href="#"><img src="img/icon/cart.png" alt=""> <span>0</span></a>
-            <div class="price">$0.00</div>
         </div>
         <div id="mobile-menu-wrap"></div>
         <div class="offcanvas__text">
@@ -61,8 +56,7 @@
                     <div class="col-lg-6 col-md-5">
                         <div class="header__top__right">
                             <div class="header__top__links">
-                                <a href="authentication.html">Đăng nhập</a>
-                                <a href="#">Đăng xuất</a>
+                                <a href="authentication.html">Đăng nhập / Đăng ký</a>
                             </div>
                         </div>
                     </div>
@@ -81,22 +75,13 @@
                         <ul>
                             <li class=""><a href="./index.html">Trang chủ</a></li>
                             <li class=""><a href="./shop.html">Cửa hàng</a></li>
-                            <!-- <li><a href="#">Pages</a>
-                                <ul class="dropdown">
-                                    <li><a href="./about.html">About Us</a></li>
-                                    <li><a href="./shop-details.html">Shop Details</a></li>
-                                    <li><a href="./shopping-cart.html">Shopping Cart</a></li>
-                                    <li><a href="./checkout.html">Check Out</a></li>
-                                    <li><a href="./blog-details.html">Blog Details</a></li>
-                                </ul>
-                            </li> -->
                             <li class=""><a href="./blog.html">Blog</a></li>
                             <li class=""><a href="./contact.html">Liên hệ</a></li>
                         </ul>
                     </nav>
                 </div>
                 <div class="col-lg-3 col-md-3">
-                    <div class="header__nav__option">
+                    <div class="header__nav__option mobile-menu">
                         <div class="header__nav-username">Hi!<b> Bro</b></div>
                         <div class="header__nav-avatar">
                             <a href="profile.html"><img src="img/shop/For-Men.png" alt=""></a>
@@ -212,13 +197,49 @@
             <div class="row">
                 <div class="col-lg-12">
                     <ul class="filter__controls">
-                        <li class="active" data-filter="*">Top 4 bán chạy</li>
+                        <li class="active" data-filter="*">Top bán chạy</li>
                     </ul>
                 </div>
             </div>
             <div class="col-lg-12 col-sm-12">
                 <div class="row">
-                    <div class="col-lg-3 col-md-6 col-sm-6">
+                    <div class="col-lg-3 col-md-4 col-sm-6">
+                        <div class="block product no-border z-depth-2-top z-depth-2--hover">
+                            <div class="block-image">
+                                <a href="#">
+                                    <img src="img/shop/vans/vn000zd4y28-1.png" class="img-center">
+                                </a>
+                                <span class="product-ribbon product-ribbon-right product-ribbon--style-1 bg-blue text-uppercase">New</span>
+                            </div>
+                            <div class="block-body text-center">
+                                <h2 class="product__name">
+                                    <a href="#">
+                                        Google Home Base
+                                    </a>
+                                </h2>
+                                <p class="product-description">
+                                    2.8GHz Processor 1TB Storage 16GB DDR
+                                </p>
+                                <div class="product-buttons mt-4">
+                                    <div class="row align-items-center">
+                                        <div class="col-2">
+                                            <a href="shop-details.html">
+                                                <button type="button" class="btn-icon" data-toggle="tooltip" data-placement="top" title="" data-original-title="Favorite">
+                                                    <i class="fa fa-search"></i>
+                                                </button>
+                                            </a>
+                                        </div>
+                                        <div class="col-10">
+                                            <button type="button" class="btn btn-block btn-primary btn-circle btn-icon-left">
+                                                <i class="fa fa-shopping-cart"></i>Add to cart
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>    
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6">
                         <div class="block product no-border z-depth-2-top z-depth-2--hover">
                             <div class="block-image">
                                 <a href="#">
@@ -252,7 +273,7 @@
                             </div>
                         </div>    
                     </div>
-                    <div class="col-lg-3 col-md-6 col-sm-6">
+                    <div class="col-lg-3 col-md-4 col-sm-6">
                         <div class="block product no-border z-depth-2-top z-depth-2--hover">
                             <div class="block-image">
                                 <a href="#">
@@ -286,41 +307,7 @@
                             </div>
                         </div>    
                     </div>
-                    <div class="col-lg-3 col-md-6 col-sm-6">
-                        <div class="block product no-border z-depth-2-top z-depth-2--hover">
-                            <div class="block-image">
-                                <a href="#">
-                                    <img src="img/shop/vans/vn000zd4y28-1.png" class="img-center">
-                                </a>
-                                <span class="product-ribbon product-ribbon-right product-ribbon--style-1 bg-blue text-uppercase">New</span>
-                            </div>
-                            <div class="block-body text-center">
-                                <h2 class="product__name">
-                                    <a href="#">
-                                        Google Home Base
-                                    </a>
-                                </h2>
-                                <p class="product-description">
-                                    2.8GHz Processor 1TB Storage 16GB DDR
-                                </p>
-                                <div class="product-buttons mt-4">
-                                    <div class="row align-items-center">
-                                        <div class="col-2">
-                                            <button type="button" class="btn-icon" data-toggle="tooltip" data-placement="top" title="" data-original-title="Favorite">
-                                                <i class="fa fa-search"></i>
-                                            </button>
-                                        </div>
-                                        <div class="col-10">
-                                            <button type="button" class="btn btn-block btn-primary btn-circle btn-icon-left">
-                                                <i class="fa fa-shopping-cart"></i>Add to cart
-                                            </button>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>    
-                    </div>
-                    <div class="col-lg-3 col-md-6 col-sm-6">
+                    <div class="col-lg-3 col-md-4 col-sm-6">
                         <div class="block product no-border z-depth-2-top z-depth-2--hover">
                             <div class="block-image">
                                 <a href="#">
@@ -368,7 +355,7 @@
             </div>
             <div class="col-lg-12 col-sm-12">
                 <div class="row">
-                    <div class="col-lg-3 col-md-6 col-sm-6">
+                    <div class="col-lg-3 col-md-4 col-sm-6">
                         <div class="block product no-border z-depth-2-top z-depth-2--hover">
                             <div class="block-image">
                                 <a href="#">
@@ -402,7 +389,7 @@
                             </div>
                         </div>    
                     </div>
-                    <div class="col-lg-3 col-md-6 col-sm-6">
+                    <div class="col-lg-3 col-md-4 col-sm-6">
                         <div class="block product no-border z-depth-2-top z-depth-2--hover">
                             <div class="block-image">
                                 <a href="#">
@@ -436,7 +423,7 @@
                             </div>
                         </div>    
                     </div>
-                    <div class="col-lg-3 col-md-6 col-sm-6">
+                    <div class="col-lg-3 col-md-4 col-sm-6">
                         <div class="block product no-border z-depth-2-top z-depth-2--hover">
                             <div class="block-image">
                                 <a href="#">
@@ -470,7 +457,7 @@
                             </div>
                         </div>    
                     </div>
-                    <div class="col-lg-3 col-md-6 col-sm-6">
+                    <div class="col-lg-3 col-md-4 col-sm-6">
                         <div class="block product no-border z-depth-2-top z-depth-2--hover">
                             <div class="block-image">
                                 <a href="#">
