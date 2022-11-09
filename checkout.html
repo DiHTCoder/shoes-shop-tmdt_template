@@ -22,6 +22,8 @@
     <link rel="stylesheet" href="css/owl.carousel.min.css" type="text/css">
     <link rel="stylesheet" href="css/slicknav.min.css" type="text/css">
     <link rel="stylesheet" href="css/style.css" type="text/css">
+
+    
 </head>
 
 <body>
@@ -173,13 +175,9 @@
                                 <h4 class="order__title">Đơn hàng của bạn</h4>
                                 <div class="checkout__order__products">Sản phẩm <span>Tổng</span></div>
                                 <ul class="checkout__total__products">
-                                    <li>01. Vanilla salted caramel <span>$ 300.0</span></li>
-                                    <li>02. German chocolate <span>$ 170.0</span></li>
-                                    <li>03. Sweet autumn <span>$ 170.0</span></li>
-                                    <li>04. Cluten free mini dozen <span>$ 110.0</span></li>
                                 </ul>
                                 <ul class="checkout__total__all">
-                                    <li>Tổng<span>$750.99</span></li>
+                                    <li>Tổng<span class="price_total">$750.99</span></li>
                                 </ul>
 
                                 <button type="submit" class="site-btn btn-pay">THANH TOÁN</button>
@@ -194,8 +192,7 @@
             <div class="payment">
                 <div class="payment-container">
                     <div class="qr-payment">
-                        <img src="https://img.vietqr.io/image/STB-050122075254-compact2.png?amount=500000&addInfo=Thanh%20Toan%20SoMore&accountName=Nguyen%20Huu%20Dat"
-                            alt="Tài khoản ngân hàng">
+                        
                     </div>
 
                     <div class="payment-close">
@@ -283,6 +280,9 @@
     <script src="js/owl.carousel.min.js"></script>
     <script src="js/main.js"></script>
 
+    <script src="js-test/checkout.js"></script>
+
+    
     <script>
         const btnPay = document.querySelector('.btn-pay')
         const containerPay = document.querySelector('.payment')
