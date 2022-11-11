@@ -1,0 +1,357 @@
+{
+  "product_cart": [
+    {
+      "id": 1,
+      "name": "coverse",
+      "description": "Phiên bản Conv Off White 1970s đã restock trong năm 2021 này với số lượng nhiều hơn 1 chút so với đợt ra mắt lần trước.",
+      "price": 100,
+      "size": 1
+    },
+    {
+      "id": 2,
+      "name": "coverse",
+      "description": "Phiên bản Conv Off White 1970s đã restock trong năm 2021 này với số lượng nhiều hơn 1 chút so với đợt ra mắt lần trước.",
+      "price": 100
+    }
+  ],
+  "size": [
+    {
+      "id": 1
+    }
+  ],
+  "img": [
+    {
+      "id": 1,
+      "link": "img/shop-details/converse-1.jpg"
+    },
+    {
+      "id": 2,
+      "link": "img/shop-details/converse-2.jpg"
+    },
+    {
+      "id": 3,
+      "link": "img/shop-details/converse-3.jpg"
+    },
+    {
+      "id": 4,
+      "link": "img/shop-details/converse-4.jpg"
+    }
+  ],
+  "img-big": [
+    {
+      "id": 1,
+      "link": "img/shop-details/big-converse-1.png"
+    },
+    {
+      "id": 2,
+      "link": "img/shop-details/big-converse-2.png"
+    },
+    {
+      "id": 3,
+      "link": "img/shop-details/big-converse-3.png"
+    },
+    {
+      "id": 4,
+      "link": "img/shop-details/big-converse-4.png"
+    }
+  ],
+  "cart": [
+    {
+      "id": 1,
+      "name": "coverse",
+      "description": "Phiên bản Conv Off White 1970s đã restock trong năm 2021 này với số lượng nhiều hơn 1 chút so với đợt ra mắt lần trước.",
+      "price": 100,
+      "size": 1
+    },
+    {
+      "id": 2,
+      "name": "coverse",
+      "description": "Phiên bản Conv Off White 1970s đã restock trong năm 2021 này với số lượng nhiều hơn 1 chút so với đợt ra mắt lần trước.",
+      "price": 100
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "brand": "vans",
+      "category": "1",
+      "size": "38",
+      "productName": "Giày Vans Authentic DIY HC Lemon Chrome",
+      "price": "179000",
+      "image": "https://bizweb.dktcdn.net/thumb/1024x1024/100/347/923/products/vn0a4uuc1ae-4.jpg",
+      "color": "red",
+      "discount": "",
+      "number": "123",
+      "discription": "BST giày Vans DIY gồm 5 mẫu giày chính thuộc hai dòng Authentic và SK8-Hi. Điểm khác biệt nổi bật ở đây là những mẫu giày này được trang bị thêm những đường chỉ đỏ thật bắt mắt ở những vị trí nổi bật trên thân giày."
+    },
+    {
+      "id": 2,
+      "brand": "vans",
+      "category": "1",
+      "size": "38",
+      "productName": "Giày Vans Style 36 Classic Sport Dress Blue",
+      "price": "179000",
+      "image": "https://bizweb.dktcdn.net/thumb/1024x1024/100/347/923/products/vn000d3hnvy-2.png",
+      "color": "red",
+      "discount": "",
+      "number": "123",
+      "discription": "Nhắc đến tên dòng sản phẩm này - giày Converse classic đã đủ để thấy được sự basic của nó. Và BST Chuck Taylor All Star Classic đã chứng tỏ được vị thế của những đôi giày chất lượng - đơn giản - giá cả phải chăng của mình khi nó lọt top những sản phẩm đáng sở hữu nhất mà ai cũng nên có một đôi"
+    },
+    {
+      "id": 3,
+      "brand": "vans",
+      "category": "1",
+      "size": "38",
+      "productName": "Giày Vans Style 36 Classic Sport Dress Blue",
+      "price": "1234241",
+      "image": "https://bizweb.dktcdn.net/thumb/1024x1024/100/347/923/products/vn0a4btht80-7.jpg",
+      "color": "blue",
+      "discount": "",
+      "number": "123",
+      "discription": "BST giày Vans DIY gồm 5 mẫu giày chính thuộc hai dòng Authentic và SK8-Hi. Điểm khác biệt nổi bật ở đây là những mẫu giày này được trang bị thêm những đường chỉ đỏ thật bắt mắt ở những vị trí nổi bật trên thân giày."
+    },
+    {
+      "id": 4,
+      "brand": "vans",
+      "category": "1",
+      "size": "38",
+      "productName": "Giày Vans Old Skool Pro Black White",
+      "price": "209000",
+      "image": "https://bizweb.dktcdn.net/thumb/1024x1024/100/347/923/products/vn000zd4y28-1.jpg",
+      "color": "blue",
+      "discount": "",
+      "number": "113",
+      "discription": "Phiên bản pro nâng cấp của bản Giày Vans old skool này được thiết kế với bộ đệm bên trong giày vô cùng êm ái, những miếng gia cố ở những vị trí quan trọng và đệm cao su Duracap để hỗ trợ cho mọi hoạt động của bạn."
+    },
+    {
+      "brand": "converse",
+      "category": "2",
+      "size": "38",
+      "productName": "Giày Converse Chuck Taylor All Star VLTG - Back to Earth",
+      "price": "209000",
+      "image": "https://bizweb.dktcdn.net/thumb/1024x1024/100/347/923/products/567046v-2.png",
+      "color": "mix",
+      "discount": "",
+      "number": "11",
+      "discription": "Mẫu giày cao cổ Chuck Taylor All Star VLTG giúp cho người sử dụng có vẻ ngoài siêu chất và cá tính. Điểm nhấn nổi bật khác của sản phẩm ngoài họa tiết chữ V xếp chồng đó chính là  icon hình ngôi sao được cách điệu ở phần foxing tạo điểm nhấn và sự khác biệt so với các sản phẩm khác..",
+      "id": 5
+    },
+    {
+      "brand": "converse",
+      "category": "2",
+      "size": "38",
+      "productName": "Giày Converse Chuck Taylor All Star CX",
+      "price": "209000",
+      "image": "https://bizweb.dktcdn.net/thumb/1024x1024/100/347/923/products/168566c-5.jpg",
+      "color": "mix",
+      "discount": "",
+      "number": "121",
+      "discription": "Converse CX sở hữu những cải tiến đáng giá nhất của hãng từ chất liệu làm nên sản phẩm cho đến bộ đế đầy tính sáng tạo và đột phá, làm nên đặc trưng không thể trộn lẫn: tấm vải nền mang tên CX, một loại vải tổng hợp vừa dẻo dai nhưng vẫn tạo ra sự ôm sát vừa vặn với chân người dùng đặc biệt là vẫn giữ được vẻ ngoài đầy tính truyền thống của Converse. Tiếp theo là hệ thống đệm bọt CX là kết hợp giữa đế PU và đế Phylon được xếp chồng lên nhau mang lại sự êm ái khi di chuyển",
+      "id": 6
+    },
+    {
+      "brand": "converse",
+      "category": "2",
+      "size": "38",
+      "productName": "Giày Converse Chuck 70s Love Fearlessly",
+      "price": "209000",
+      "image": "https://bizweb.dktcdn.net/thumb/1024x1024/100/347/923/products/567153c-7.jpg",
+      "color": "mix",
+      "discount": "",
+      "number": "121",
+      "discription": "Thương hiệu Converse Xuất xứ thương hiệu Mỹ Sản xuất tại Việt Nam",
+      "id": 6
+    },
+    {
+      "brand": "converse",
+      "category": "2",
+      "size": "38",
+      "productName": "Giày Converse Chuck Taylor All Star Archival Camoy",
+      "price": "209000",
+      "image": "https://bizweb.dktcdn.net/thumb/1024x1024/100/347/923/products/166714c-1.jpg",
+      "color": "red",
+      "discount": "",
+      "number": "171",
+      "discription": "Nằm trong BST Converse Camo Connection, Giày Converse Chuck Taylor All Star Camo Patch trang bị đế OrthoLite® giúp người dùng có được sự thoải mái tối đa khi sử dụng. Chất liệu vải canvas thoáng mát. Phần vải lót bên trong của giày in hoạt tiết camo thời thượng ",
+      "id": 7
+    },
+    {
+      "brand": "converse",
+      "category": "2",
+      "size": "38",
+      "productName": "Giày Converse Chuck Taylor All Star Mix + Match",
+      "price": "209000",
+      "image": "https://bizweb.dktcdn.net/thumb/1024x1024/100/347/923/products/168746c-1.jpg",
+      "color": "red",
+      "discount": "",
+      "number": "171",
+      "discription": "Vẫn theo lối sáng tạo độc đáo và chủ đạo hướng tới tương lai, BST mới Chuck Taylor All Star Mix + Match với nhiều cảm hứng về sự Mix & Match sẽ là một sự gợi ý cho các bạn trẻ. Bất cứ ai, dù làm như thế nào, miễn các bạn cảm nhận được mình thật sự đam mê và yêu thích nó thì có khả năng các bạn cũng là những nhà sáng tạo nghệ thuật tài tình.",
+      "id": 8
+    }
+  ],
+  "top4": [
+    {
+      "id": 1,
+      "brand": "vans",
+      "category": "1",
+      "size": "38",
+      "productName": "Giày Vans Authentic DIY HC Lemon Chrome",
+      "price": "179000",
+      "image": "https://bizweb.dktcdn.net/thumb/1024x1024/100/347/923/products/vn0a4uuc1ae-4.jpg",
+      "color": "red",
+      "discount": "",
+      "number": "123",
+      "discription": "BST giày Vans DIY gồm 5 mẫu giày chính thuộc hai dòng Authentic và SK8-Hi. Điểm khác biệt nổi bật ở đây là những mẫu giày này được trang bị thêm những đường chỉ đỏ thật bắt mắt ở những vị trí nổi bật trên thân giày."
+    },
+    {
+      "id": 2,
+      "brand": "vans",
+      "category": "1",
+      "size": "38",
+      "productName": "Giày Vans Style 36 Classic Sport Dress Blue",
+      "price": "179000",
+      "image": "https://bizweb.dktcdn.net/thumb/1024x1024/100/347/923/products/vn000d3hnvy-2.png",
+      "color": "red",
+      "discount": "",
+      "number": "123",
+      "discription": "Nhắc đến tên dòng sản phẩm này - giày Converse classic đã đủ để thấy được sự basic của nó. Và BST Chuck Taylor All Star Classic đã chứng tỏ được vị thế của những đôi giày chất lượng - đơn giản - giá cả phải chăng của mình khi nó lọt top những sản phẩm đáng sở hữu nhất mà ai cũng nên có một đôi"
+    },
+    {
+      "brand": "vans",
+      "category": "1",
+      "size": "38",
+      "productName": "Giày Vans Style 36 Classic Sport Dress Blue",
+      "price": "1234241",
+      "image": "https://bizweb.dktcdn.net/thumb/1024x1024/100/347/923/products/vn0a4btht80-7.jpg",
+      "color": "blue",
+      "discount": "",
+      "number": "123",
+      "discription": "BST giày Vans DIY gồm 5 mẫu giày chính thuộc hai dòng Authentic và SK8-Hi. Điểm khác biệt nổi bật ở đây là những mẫu giày này được trang bị thêm những đường chỉ đỏ thật bắt mắt ở những vị trí nổi bật trên thân giày.",
+      "id": 3
+    },
+    {
+      "brand": "vans",
+      "category": "1",
+      "size": "38",
+      "productName": "Giày Vans Old Skool Pro Black White",
+      "price": "209000",
+      "image": "https://bizweb.dktcdn.net/thumb/1024x1024/100/347/923/products/vn000zd4y28-1.jpg",
+      "color": "blue",
+      "discount": "",
+      "number": "113",
+      "discription": "Phiên bản pro nâng cấp của bản Giày Vans old skool này được thiết kế với bộ đệm bên trong giày vô cùng êm ái, những miếng gia cố ở những vị trí quan trọng và đệm cao su Duracap để hỗ trợ cho mọi hoạt động của bạn.",
+      "id": 4
+    }
+  ],
+  "category": [
+    {
+      "id": 1,
+      "categoryName": "vans",
+      "status": "còn hàng",
+      "image": ""
+    },
+    {
+      "id": 2,
+      "categoryName": "converse",
+      "status": "còn hàng",
+      "image": ""
+    },
+    {
+      "id": 3,
+      "categoryName": "Adidas",
+      "status": "còn hàng",
+      "image": ""
+    },
+    {
+      "id": 4,
+      "categoryName": "Puma",
+      "status": "còn hàng",
+      "image": ""
+    },
+    {
+      "id": 5,
+      "categoryName": "MLB",
+      "status": "còn hàng",
+      "image": ""
+    },
+    {
+      "id": 6,
+      "categoryName": "Nike",
+      "status": "còn hàng",
+      "image": ""
+    }
+  ],
+  "price": [
+    {
+      "id": 1,
+      "priceRange": "Dưới 1 triệu"
+    },
+    {
+      "id": 2,
+      "priceRange": "Từ 1-2 triệu"
+    },
+    {
+      "id": 3,
+      "priceRange": "Hơn 2 triệu"
+    }
+  ],
+  "color": [
+    {
+      "id": 1,
+      "colorName": "Trắng"
+    },
+    {
+      "id": 2,
+      "colorName": "Đen"
+    },
+    {
+      "id": 3,
+      "colorName": "Hồng"
+    },
+    {
+      "id": 4,
+      "colorName": "Vàng"
+    },
+    {
+      "id": 5,
+      "colorName": "Mix Trắng Đen"
+    },
+    {
+      "id": 6,
+      "colorName": "Mix Cầu Vòng"
+    }
+  ],
+  "user": [
+    {
+      "id": 1,
+      "name": "Huỳnh Tiến Dĩ",
+      "email": "phadn312@gmail.com",
+      "phone": "025612414",
+      "sex": "Nam",
+      "address": "Bình Định"
+    },
+    {
+      "id": 2,
+      "name": "Nguyễn Hữu Đạt",
+      "email": "dar123@gmail.com",
+      "phone": "12244",
+      "sex": "Nữ",
+      "address": "Bình Định"
+    }
+  ],
+  "detail": [
+    {
+      "id": 1,
+      "brand": "vans",
+      "category": "1",
+      "size": "38",
+      "productName": "Giày Vans Authentic DIY HC Lemon Chrome",
+      "price": "179000",
+      "image": "https://bizweb.dktcdn.net/thumb/1024x1024/100/347/923/products/vn0a4uuc1ae-4.jpg",
+      "color": "red",
+      "discount": "",
+      "number": "123",
+      "discription": "BST giày Vans DIY gồm 5 mẫu giày chính thuộc hai dòng Authentic và SK8-Hi. Điểm khác biệt nổi bật ở đây là những mẫu giày này được trang bị thêm những đường chỉ đỏ thật bắt mắt ở những vị trí nổi bật trên thân giày."
+    }
+  ]
+}

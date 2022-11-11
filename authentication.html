@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,7 +7,6 @@
 	<title>SoMore Store</title>
 
 	<!-- Font -->
-
 	<link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
 	<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
 	<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
@@ -34,7 +32,11 @@
 			padding: 14px 0;
 			text-decoration: none !important;
 		}
+		
+		
+		
 	</style>
+
 </head>
 
 <body>
@@ -60,23 +62,22 @@
 						<div class="panel-body">
 							<div class="row">
 								<div class="col-lg-12">
-									<form id="login-form" action="https://phpoll.com/login/process" method="post"
-										role="form" style="display: block;">
+									<form id="login-form" role="form" style="display: block;" onsubmit="GetTextSignIn()">
 										<div class="form-group">
-											<input type="text" name="username" id="username" tabindex="1"
-												class="form-control" placeholder="Email/Số điện thoại/Tên đăng nhập"
+											<input type="text" name="username" id="username login" tabindex="1"
+												class="form-control sign-in" placeholder="Email/Số điện thoại/Tên đăng nhập"
 												value="">
 										</div>
 										<div class="form-group">
-											<input type="password" name="password" id="password" tabindex="2"
-												class="form-control" placeholder="Mật khẩu">
+											<input type="password" name="password" id="password login" tabindex="2"
+												class="form-control sign-in" placeholder="Mật khẩu">
 										</div>
-										<div class="form-group">
-											
+										<div class="form-group">			
 											<input type="checkbox" tabindex="3" class="" name="remember" id="remember">
 											<label for="remember"> Remember Me</label>
 											<a href="https://phpoll.com/recover" tabindex="5"
 											class="forgot-password" style="position: absolute; right: 15px; ">Quên mật khẩu?</a>
+											<div id="message login"></div>
 										</div>
 										<div class="form-group">
 											<div class="row">
@@ -88,37 +89,34 @@
 													<a href="#" class="btn btn-block py-2 btn-google"><span
 															class="icon-google mr-3"></span> Đăng nhập bằng Google</a>
 												</div>
-
 											</div>
-										</div>
-
-										
+										</div>	
 									</form>
 
-									<form id="register-form" action="https://phpoll.com/register/process" method="post"
-										role="form" style="display: none;">
+									<form id="register-form"  role="form" style="display: none;" >
 										<div class="form-group">
-											<input type="text" name="username" id="username" tabindex="1"
-												class="form-control" placeholder="Tên đăng nhập" value="">
+											<input type="text" name="username" id="username sign-up" tabindex="1"
+												class="form-control sign-up" placeholder="Tên đăng nhập" value="">
 										</div>
 										<div class="form-group">
 											<input type="email" name="email" id="email" tabindex="1"
-												class="form-control" placeholder="Email của bạn" value="">
+												class="form-control sign-up" placeholder="Email của bạn" value="">
 										</div>
 										<div class="form-group">
-											<input type="password" name="password" id="password" tabindex="2"
-												class="form-control" placeholder="Mật khẩu">
+											<input type="password" name="password" id="password sign-up" tabindex="2"
+												class="form-control sign-up" placeholder="Mật khẩu">
 										</div>
 										<div class="form-group">
 											<input type="password" name="confirm-password" id="confirm-password"
-												tabindex="2" class="form-control" placeholder="Nhập lại mật khẩu">
+												tabindex="2" class="form-control sign-up" placeholder="Nhập lại mật khẩu">
 										</div>
+										<div id="message sign-up" style="color: red;"></div>
 										<div class="form-group">
 											<div class="row">
 												<div class="col-sm-6 col-sm-offset-3">
-													<input type="submit" name="register-submit" id="register-submit"
+													<input type="button" name="register-submit" id="register-submit"
 														tabindex="4" class="form-control btn btn-register"
-														value="Đăng ký">
+														value="Đăng ký" onclick="GetTextSignUp()">
 												</div>
 											</div>
 										</div>
@@ -131,6 +129,8 @@
 			</div>
 		</div>
 	</div>
+
+	<script src="js/APIs/authentication.js"></script>
 </body>
 
 </html>

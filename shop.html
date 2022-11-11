@@ -22,6 +22,7 @@
     <link rel="stylesheet" href="css/owl.carousel.min.css" type="text/css">
     <link rel="stylesheet" href="css/slicknav.min.css" type="text/css">
     <link rel="stylesheet" href="css/style.css" type="text/css">
+    <link rel="stylesheet" href="fonts/fontawesome-free-6.2.0-web/css/all.min.css">
 </head>
 
 <body>
@@ -136,7 +137,7 @@
                     <div class="shop__sidebar">
                         <div class="shop__sidebar__search">
                             <form action="#">
-                                <input type="text" placeholder="Search...">
+                                <input type="text" placeholder="Tìm sản phẩm..." id="searchinput">
                                 <button type="submit"><span class="icon_search"></span></button>
                             </form>
                         </div>
@@ -149,9 +150,8 @@
                                     <div id="collapseOne" class="collapse show" data-parent="#accordionExample">
                                         <div class="card-body">
                                             <div class="shop__sidebar__categories">
-                                                <ul class="nice-scroll">
+                                                <ul class="nice-scroll cate-name-list">
                                                     <li><a href="#">Men (20)</a></li>
-                                                    <li><a href="#">Women (20)</a></li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -165,13 +165,8 @@
                                     <div id="collapseThree" class="collapse show" data-parent="#accordionExample">
                                         <div class="card-body">
                                             <div class="shop__sidebar__price">
-                                                <ul>
+                                                <ul class="product-price-list">
                                                     <li><a href="#">$0.00 - $50.00</a></li>
-                                                    <li><a href="#">$50.00 - $100.00</a></li>
-                                                    <li><a href="#">$100.00 - $150.00</a></li>
-                                                    <li><a href="#">$150.00 - $200.00</a></li>
-                                                    <li><a href="#">$200.00 - $250.00</a></li>
-                                                    <li><a href="#">250.00+</a></li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -219,8 +214,8 @@
                             </div>
                         </div>
                     </div>
-                    <div class="row">
-                        <div class="col-lg-4 col-md-6 col-sm-6">
+                    <div class="row product-item-all">
+                        <!-- <div class="col-lg-4 col-md-3 col-sm-6 product-item">
                             <div class="block product no-border z-depth-2-top z-depth-2--hover">
                                 <div class="block-image">
                                     <a href="#">
@@ -245,154 +240,14 @@
                                                 </button>
                                             </div>
                                             <div class="col-10">
-                                                <button type="button" class="btn btn-block btn-primary btn-circle btn-icon-left">
+                                                <button type="button" onclick="addItemToCart()" class="add-to-cart btn btn-block btn-primary btn-circle btn-icon-left">
                                                     <i class="fa fa-shopping-cart"></i>Add to cart
                                                 </button>
                                             </div>
                                         </div>
-                                    </div>
+                                    </div> -->
                                 </div>
-                            </div>
-                
-                        </div>
-                        <div class="col-lg-4 col-md-6 col-sm-6">
-                            <div class="block product no-border z-depth-2-top z-depth-2--hover">
-                                <div class="block-image">
-                                    <a href="#">
-                                        <img src="img/shop/vans/vn000zd4y28-1.png" class="img-center">
-                                    </a>
-                                    <span class="product-ribbon product-ribbon-right product-ribbon--style-1 bg-blue text-uppercase">New</span>
-                                </div>
-                                <div class="block-body text-center">
-                                    <h2 class="product__name">
-                                        <a href="#">
-                                            Google Home Base
-                                        </a>
-                                    </h2>
-                                    <p class="product-description">
-                                        2.8GHz Processor 1TB Storage 16GB DDR
-                                    </p>
-                                    <div class="product-buttons mt-4">
-                                        <div class="row align-items-center">
-                                            <div class="col-2">
-                                                <button type="button" class="btn-icon" data-toggle="tooltip" data-placement="top" title="" data-original-title="Favorite">
-                                                    <i class="fa fa-search"></i>
-                                                </button>
-                                            </div>
-                                            <div class="col-10">
-                                                <button type="button" class="btn btn-block btn-primary btn-circle btn-icon-left">
-                                                    <i class="fa fa-shopping-cart"></i>Add to cart
-                                                </button>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                
-                        </div>
-                        <div class="col-lg-4 col-md-6 col-sm-6">
-                            <div class="block product no-border z-depth-2-top z-depth-2--hover">
-                                <div class="block-image">
-                                    <a href="#">
-                                        <img src="img/shop/vans/vn000zd4y28-1.png" class="img-center">
-                                    </a>
-                                    <span class="product-ribbon product-ribbon-right product-ribbon--style-1 bg-blue text-uppercase">New</span>
-                                </div>
-                                <div class="block-body text-center">
-                                    <h2 class="product__name">
-                                        <a href="#">
-                                            Google Home Base
-                                        </a>
-                                    </h2>
-                                    <p class="product-description">
-                                        2.8GHz Processor 1TB Storage 16GB DDR
-                                    </p>
-                                    <div class="product-buttons mt-4">
-                                        <div class="row align-items-center">
-                                            <div class="col-2">
-                                                <button type="button" class="btn-icon" data-toggle="tooltip" data-placement="top" title="" data-original-title="Favorite">
-                                                    <i class="fa fa-search"></i>
-                                                </button>
-                                            </div>
-                                            <div class="col-10">
-                                                <button type="button" class="btn btn-block btn-primary btn-circle btn-icon-left">
-                                                    <i class="fa fa-shopping-cart"></i>Add to cart
-                                                </button>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                
-                        </div>
-                        <div class="col-lg-4 col-md-6 col-sm-6">
-                            <div class="block product no-border z-depth-2-top z-depth-2--hover">
-                                <div class="block-image">
-                                    <a href="#">
-                                        <img src="img/shop/vans/vn000zd4y28-1.png" class="img-center">
-                                    </a>
-                                    <span class="product-ribbon product-ribbon-right product-ribbon--style-1 bg-blue text-uppercase">New</span>
-                                </div>
-                                <div class="block-body text-center">
-                                    <h2 class="product__name">
-                                        <a href="#">
-                                            Google Home Base
-                                        </a>
-                                    </h2>
-                                    <p class="product-description">
-                                        2.8GHz Processor 1TB Storage 16GB DDR
-                                    </p>
-                                    <div class="product-buttons mt-4">
-                                        <div class="row align-items-center">
-                                            <div class="col-2">
-                                                <button type="button" class="btn-icon" data-toggle="tooltip" data-placement="top" title="" data-original-title="Favorite">
-                                                    <i class="fa fa-search"></i>
-                                                </button>
-                                            </div>
-                                            <div class="col-10">
-                                                <button type="button" class="btn btn-block btn-primary btn-circle btn-icon-left">
-                                                    <i class="fa fa-shopping-cart"></i>Add to cart
-                                                </button>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                
-                        </div>
-                        <div class="col-lg-4 col-md-6 col-sm-6">
-                            <div class="block product no-border z-depth-2-top z-depth-2--hover">
-                                <div class="block-image">
-                                    <a href="#">
-                                        <img src="img/shop/vans/vn000zd4y28-1.png" class="img-center">
-                                    </a>
-                                    <span class="product-ribbon product-ribbon-right product-ribbon--style-1 bg-blue text-uppercase">New</span>
-                                </div>
-                                <div class="block-body text-center">
-                                    <h2 class="product__name">
-                                        <a href="#">
-                                            Google Home Base
-                                        </a>
-                                    </h2>
-                                    <p class="product-description">
-                                        2.8GHz Processor 1TB Storage 16GB DDR
-                                    </p>
-                                    <div class="product-buttons mt-4">
-                                        <div class="row align-items-center">
-                                            <div class="col-2">
-                                                <button type="button" class="btn-icon" data-toggle="tooltip" data-placement="top" title="" data-original-title="Favorite">
-                                                    <i class="fa fa-search"></i>
-                                                </button>
-                                            </div>
-                                            <div class="col-10">
-                                                <button type="button" class="btn btn-block btn-primary btn-circle btn-icon-left">
-                                                    <i class="fa fa-shopping-cart"></i>Add to cart
-                                                </button>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>    
+                            </div>         
                         </div>
                     </div>
                     <div class="row">
@@ -488,6 +343,10 @@
     <script src="js/mixitup.min.js"></script>
     <script src="js/owl.carousel.min.js"></script>
     <script src="js/main.js"></script>
+    <script src="js/APIs/product.js"></script>
+    <script src="js/APIs/category.js"></script>
+    <script src="js/APIs/price.js"></script>
+    
 </body>
 
 </html>
