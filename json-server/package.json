@@ -1,0 +1,23 @@
+{
+  "name": "werp-shoes-shop-tmdt",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "json-server --watch db.json",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DiHTCoder/werp-shoes-shop-tmdt.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DiHTCoder/werp-shoes-shop-tmdt/issues"
+  },
+  "homepage": "https://github.com/DiHTCoder/werp-shoes-shop-tmdt#readme",
+  "dependencies": {
+    "json-server": "^0.17.1"
+  }
+}
