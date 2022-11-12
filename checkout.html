@@ -42,7 +42,7 @@
         <div class="offcanvas__text">
             <p>Miễn phí vận chuyển, đổi trả trong vòng 1 tuần</p>
         </div>
-    </div> 
+    </div>
     <!-- Offcanvas Menu End -->
 
     <!-- Header Section Begin -->
@@ -124,65 +124,53 @@
             <div class="checkout__form">
                 <form action="#">
                     <div class="row">
-                        <div class="col-lg-8 col-md-6">
-                            <h6 class="checkout__title">Chi tiết hóa đơn</h6>
-                            <div class="row">
-                                <div class="col-lg-6">
-                                    <div class="checkout__input">
-                                        <p>Họ<span>*</span></p>
-                                        <input type="text">
+                        <div class="col-lg-6 col-md-6">
+                            <form action="" id="form">
+                                <h6 class="checkout__title">Chi tiết hóa đơn</h6>
+                                <div class="row">
+                                    <div class="col-lg-12">
+                                        <div class="checkout__input">
+                                            <p>Họ và tên<span>*</span></p>
+                                            <input type="text" class="" id="customer-name" required >
+                                        </div>
                                     </div>
                                 </div>
-                                <div class="col-lg-6">
-                                    <div class="checkout__input">
-                                        <p>Tên<span>*</span></p>
-                                        <input type="text">
+                                <div class="checkout__input">
+                                    <p>Địa chỉ<span>*</span></p>
+                                    <input type="text" class="checkout__input__add" id="customer-address" required>
+                                </div>
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <div class="checkout__input">
+                                            <p>Số điện thoại<span>*</span></p>
+                                            <input type="text" id="customer-phone" required>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="checkout__input">
+                                            <p>Email<span>*</span></p>
+                                            <input type="text" id="customer-email" required>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-
-                            <div class="checkout__input">
-                                <p>Địa chỉ<span>*</span></p>
-                                <input type="text" class="checkout__input__add">
-                            </div>
-                        
-
-                            <div class="row">
-                                <div class="col-lg-6">
-                                    <div class="checkout__input">
-                                        <p>Phone<span>*</span></p>
-                                        <input type="text">
-                                    </div>
+                                <div class="checkout__input">
+                                    <p>Ghi chú (Nếu cần)</p>
+                                    <input type="text" id="customer-note">
                                 </div>
-                                <div class="col-lg-6">
-                                    <div class="checkout__input">
-                                        <p>Email<span>*</span></p>
-                                        <input type="text">
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="checkout__input">
-                                <p>Ghi chú<span>*</span></p>
-                                <input type="text">
-                            </div>
+                            </form>
                         </div>
 
-                        <div class="col-lg-4 col-md-6">
+                        <div class="col-lg-6 col-md-6">
                             <div class="checkout__order">
                                 <h4 class="order__title">Đơn hàng của bạn</h4>
-                                <div class="checkout__order__products">Sản phẩm <span>Tổng</span></div>
+                                <div class="checkout__order__products"><b>Sản phẩm</b><span><b>Tổng</b></span></div>
                                 <ul class="checkout__total__products">
-                                    <li>01. Vanilla salted caramel <span>$ 300.0</span></li>
-                                    <li>02. German chocolate <span>$ 170.0</span></li>
-                                    <li>03. Sweet autumn <span>$ 170.0</span></li>
-                                    <li>04. Cluten free mini dozen <span>$ 110.0</span></li>
                                 </ul>
                                 <ul class="checkout__total__all">
-                                    <li>Tổng<span>$750.99</span></li>
+                                    <li>Tổng<span id="checkout-total-all">$750.99</span></li>
                                 </ul>
 
-                                <button type="submit" class="site-btn btn-pay">THANH TOÁN</button>
+                                <button type="submit" class="site-btn btn-pay" onclick="checkoutCart()">THANH TOÁN</button>
                             </div>
                         </div>
                     </div>
@@ -207,8 +195,8 @@
     </section>
     <!-- Checkout Section End -->
 
-     <!-- Footer Section Begin -->
-     <footer class="footer">
+    <!-- Footer Section Begin -->
+    <footer class="footer">
         <div class="container">
             <div class="row">
                 <div class="col-lg-3 col-md-6 col-sm-6">
@@ -273,6 +261,7 @@
     <!-- Search End -->
 
     <!-- Js Plugins -->
+    <script src="js/jquery-3.3.1.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/jquery.nice-select.min.js"></script>
     <script src="js/jquery.nicescroll.min.js"></script>
@@ -282,25 +271,7 @@
     <script src="js/mixitup.min.js"></script>
     <script src="js/owl.carousel.min.js"></script>
     <script src="js/main.js"></script>
-
-    <script>
-        const btnPay = document.querySelector('.btn-pay')
-        const containerPay = document.querySelector('.payment')
-        const iconClose = document.querySelector('.payment-close')
-
-        function showPay() {
-            containerPay.classList.add('open')
-        }
-
-        function hidePay() {
-            containerPay.classList.remove('open')
-        }
-        // Lang nghe su kien
-        btnPay.addEventListener('click', showPay)
-        iconClose.addEventListener('click', hidePay)
-
-    </script>
-    
+    <script src="js/APIs/checkout.js"></script>
 </body>
 
 </html>
