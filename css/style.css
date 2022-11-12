@@ -2373,6 +2373,7 @@ ol {
 .shopping__cart__table table tbody tr td.product__cart__item .product__cart__item__pic {
 	float: left;
 	margin-right: 30px;
+	width: 20%;
 }
 
 .shopping__cart__table table tbody tr td.product__cart__item .product__cart__item__text {
