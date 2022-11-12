@@ -42,7 +42,7 @@
         <div class="offcanvas__text">
             <p>Miễn phí vận chuyển, đổi trả trong vòng 1 tuần</p>
         </div>
-    </div> 
+    </div>
     <!-- Offcanvas Menu End -->
 
     <!-- Header Section Begin -->
@@ -100,7 +100,9 @@
 
     <!-- Map Begin -->
     <div class="map">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3918.4842318813235!2d106.76973361424659!3d10.850726660786274!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752763f23816ab%3A0x282f711441b6916f!2zVHLGsOG7nW5nIMSQ4bqhaSBo4buNYyBTxrAgcGjhuqFtIEvhu7kgdGh14bqtdCBUcC4gSOG7kyBDaMOtIE1pbmg!5e0!3m2!1svi!2s!4v1663426612085!5m2!1svi!2s" height="500" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>   
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3918.4842318813235!2d106.76973361424659!3d10.850726660786274!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752763f23816ab%3A0x282f711441b6916f!2zVHLGsOG7nW5nIMSQ4bqhaSBo4buNYyBTxrAgcGjhuqFtIEvhu7kgdGh14bqtdCBUcC4gSOG7kyBDaMOtIE1pbmg!5e0!3m2!1svi!2s!4v1663426612085!5m2!1svi!2s"
+            height="500" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
     </div>
     <!-- Map End -->
 
@@ -113,27 +115,29 @@
                         <div class="section-title">
                             <span>Information</span>
                             <h2>Bạn cần hỗ trợ?</h2>
-                            <p>SoMore rất hân hạnh được hỗ trợ hay nhận ý kiến đống góp từ bạn, hãy để lại thông tin. Yêu cầu của bạn sẽ được xử lý và phản hồi trong thời gian sớm nhất.</p>
+                            <p>SoMore rất hân hạnh được hỗ trợ hay nhận ý kiến đống góp từ bạn, hãy để lại thông tin.
+                                Yêu cầu của bạn sẽ được xử lý và phản hồi trong thời gian sớm nhất.</p>
                         </div>
                         <ul>
                             <li>
-                                <img src="img/off-white-x-air-jordan-1-retro-high-og-chicago-sample-mnjdls-761-740207107753.png" alt="Giày" style="width:60%; margin-left: 10%; ">
+                                <img src="img/off-white-x-air-jordan-1-retro-high-og-chicago-sample-mnjdls-761-740207107753.png"
+                                    alt="Giày" style="width:60%; margin-left: 10%; ">
                             </li>
                         </ul>
                     </div>
                 </div>
                 <div class="col-lg-6 col-md-6">
                     <div class="contact__form">
-                        <form action="#">
+                        <form action="#" class="contact__form_info">
                             <div class="row info">
                                 <div class="col-lg-6">
-                                    <input type="text" placeholder="Name">
+                                    <input type="text" placeholder="Name" class="name">
                                 </div>
                                 <div class="col-lg-6">
-                                    <input type="text" placeholder="Email">
+                                    <input type="text" placeholder="Email" class="email">
                                 </div>
                                 <div class="col-lg-12">
-                                    <textarea placeholder="Message"></textarea>
+                                    <textarea placeholder="Message" class="message"></textarea>
                                     <button type="submit" class="site-btn">Send Message</button>
                                 </div>
                             </div>
@@ -222,6 +226,9 @@
     <script src="js/mixitup.min.js"></script>
     <script src="js/owl.carousel.min.js"></script>
     <script src="js/main.js"></script>
+
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script src="js/APIs//contact.js"></script>
 </body>
 
 </html>
